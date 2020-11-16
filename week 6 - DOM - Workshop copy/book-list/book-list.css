@@ -1,0 +1,66 @@
+body,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+    display: flex;
+   justify-content: center;
+   
+}
+
+
+
+
+
+section {
+    padding: 0 20px;
+    position: relative;
+    min-width: 200px;
+}
+
+li {
+    list-style: none;
+    border: 2px solid #155644;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form div {
+    padding: 10px 0;
+}
+
+#addNewBook{
+    outline: none;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 5px;
+    color: white;
+    background-color: #155644;
+}
+
+.new-book {
+    position: fixed;
+    top: 0;
+}
+
+form {
+    border: 2px solid #155644;
+    border-radius: 4px;
+    padding: 10px;
+    
+}
+form:required {
+    border: red;
+}
+
+#errorForm {
+    padding: 1px;
+    background-color: white;
+    color: red;
+    border: none;
+
+
+}
